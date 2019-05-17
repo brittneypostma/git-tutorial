@@ -1,0 +1,4 @@
+Create a new repo on GitHub
+//in command line type:
+git remote add origin https://urlhere
+git push -u origin master
