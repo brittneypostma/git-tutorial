@@ -1,0 +1,11 @@
+touch .gitignore //case and words matter
+
+//undo an add
+git rm --cached -r .
+
+//inside .gitignore file add the file names you want to ignore
+secrets.txt
+.DS_Store
+
+# Comment
+*.txt //all of this type will be ignored
